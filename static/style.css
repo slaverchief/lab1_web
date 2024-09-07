@@ -1,0 +1,62 @@
+
+body {
+    
+    font-size: 35px;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    font-family:"Audiowide", sans-serif;
+}
+
+img {
+    width: 1000px;
+    height: 600px;
+}
+
+table, th, td {
+    border: 2px solid;
+}
+
+th {
+    padding: 10px;
+}
+
+table{
+    padding: 0;
+    border: black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 400px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Audiowide", sans-serif;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+header {
+    margin: 80px;
+    padding: 0;
+
+}
+
+
+main {
+    margin: 80px;
+    padding: 0;
+
+}
+
+
+footer {
+    padding: 1px;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
