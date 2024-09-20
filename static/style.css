@@ -13,8 +13,6 @@ body {
 img {
     width: 1000px;
     height: 600px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
 }
 
@@ -46,7 +44,6 @@ a:hover{
 header {
     margin: 80px;
     padding: 0;
-    text-align: center;
 
 }
 
