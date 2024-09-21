@@ -70,7 +70,7 @@ footer {
 
 @media (max-width: 400){
     table{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -79,8 +79,7 @@ footer {
         text-align: center;
     }
     nav{
-        text-align: center;
-        font-size: 25px;
+        align-items: center;
     }
     img{
         width: 100%;
@@ -88,10 +87,18 @@ footer {
     table{
         font-size: 14px;
     }
+    nav > a{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 800px){
     img{
         width: 500px;
+    }
+    nav{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;  
     }
 }
