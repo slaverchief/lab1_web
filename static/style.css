@@ -60,6 +60,7 @@ main {
 footer {
     padding: 1px;
     font-size: 20px;
+    width: 100%;
     background-color: black;
     color: white;
 }
